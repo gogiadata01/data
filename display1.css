@@ -1,0 +1,88 @@
+ @import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@200&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #1d2129;
+    border-bottom: 1px solid #0a0d14; 
+}
+.navbar h3{
+    color:rgb(214, 129, 44) ;
+}
+ .navbar span{
+    color: blue; 
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.nav-links{
+    padding: 28px 0;
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none; 
+    padding: 5px 0; 
+    position: relative;
+}
+.nav-links li a::after{
+    content: "";
+    background: #00ffdd;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition:  0.5s;
+}
+  .nav-links li a:hover::after{
+    width: 100%; 
+}
+.btn{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold; 
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(177, 190, 181);
+
+}
+ .btn:hover{
+    border-bottom: rgb(0, 0, 0);
+    color: blue;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

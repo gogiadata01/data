@@ -1,0 +1,26 @@
+
+
+
+.conteiner{
+    max-width: 960;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
+}
+.parallax{
+    background: url(img/523877.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+ .input_file{
+    background-image: url(img/_5_5b3b6b0b21439.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+} 
+.title{
+    color: aqua;
+    text-align: center;
+}

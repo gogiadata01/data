@@ -1,0 +1,32 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteiner{
+    font-size: 25px;
+    color: #fac107;
+    text-align: center;
+    text-decoration: overline;
+    line-height: 1.2;
+    background-color: #343;
+    
+}
+
+.title{
+    color: #00f;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 8px 8px 8px #00f;
+}
+.input_field{
+    color:#c0c0c0;
+    line-height: 1.6;
+    text-transform:lowercase;
+
+}
+ 

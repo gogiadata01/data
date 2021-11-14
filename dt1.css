@@ -1,0 +1,18 @@
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+.text{
+    
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 25px;
+
+}
+.conteiner{
+    background: url(./img/_5_5b3b6b0b21439.jpg);
+    margin: auto;
+}
