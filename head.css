@@ -1,0 +1,30 @@
+
+span{
+    color: rgb(224, 224, 164);
+}
+.head{
+    background-image: url(./img/thumb-1920-151469.jpg);
+    color: white;
+}
+.icons{
+    position: relative;
+    top: 60px;
+    color: yellow;
+}
+.card-img-top{
+    width: 100px;
+    margin: auto;
+}
+.span1{
+    font-size: 50px;
+}
+.line{
+    color: rgb(135, 222, 208);
+    font-size: 60px;  
+ }
+ .gallery-items{
+   max-width: 80%; 
+} 
+img{
+    height: 100%;
+}
