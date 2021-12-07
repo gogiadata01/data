@@ -1,0 +1,138 @@
+
+ 
+
+.dropdown-toggle::after{
+    display:none; 
+}
+.button{
+    border: 0;
+    border-radius: 20px;  
+   
+    
+}
+.nav-item{
+    display: inline-block;
+    padding: 0 15px;
+    
+    
+}
+    
+
+ a{
+    text-decoration: 0;
+    color: green;
+    
+}
+
+#banner{
+    background-image: url(../img/image1.png);
+}
+.iphone{ 
+    
+    width: 300px;
+    position:relative;
+    left: 200px;
+    top: 10px;
+    padding: 10px;
+
+   
+}
+.icon{
+    width: 150px;
+    position: relative;
+    left: 58px;
+    top: 50px;
+ 
+} 
+      
+
+
+.navbar-brand{
+  display: block;
+  padding-left: 100px;
+}
+
+.text{
+    position: relative;
+    top: 50px;
+    left: 90px;
+}
+
+.text1{
+      /* position: relative;
+    top: 400px;   */
+    /* display: inline-block;
+    padding-top: 100px; */
+  padding-top: 300px;
+    
+}
+
+ .iphone1{
+      /* position: relative;
+    width: 400px;  
+    left: 35px;    */
+    display: block;
+    padding-top: 80px;
+} 
+ .p{
+    position: relative;
+    right: 4px; 
+}
+.text2{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 100px;
+    color: rgb(49, 47, 47);
+}
+.product{
+  background-image: url('/img/product.png'); 
+}
+.iphone4{
+    position: relative;
+    top: 160px;
+    right: 125px;
+}
+.iphone3{
+    position: relative;
+    top: 160px;
+  left: 190px;
+}
+.col{
+    position: relative;
+    top: 50px;
+}
+.bor{ 
+     box-sizing: border-box;
+    border-radius: 30px;
+    border: 3px solid #28c9ac;
+    align-items: center;
+     width:400px;
+    height:100px; 
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 100px;
+}
+.bor:hover{
+    background-color:rgb(123, 230, 123);
+}
+.t{
+    position: relative;
+    left: 100px;
+    bottom: 55px;   
+}
+.appl{
+ position: relative;
+ top: 20px;
+ right: 10px;
+}
+.time{
+  position: relative;
+  left: 190px;
+  bottom: 90px;
+} 
+.text3{
+ position: relative;
+ top: 230px;
+ left: 150px;
+}
