@@ -37,52 +37,52 @@
   
   
   
-//  let url ="https://getbootstrap.com/docs/5.1/components/card/";
-//  let img = "img/banana.png";
-//  let mystring ='div class="col-lg-4"><div class="card">
-//  <img src="'+img+'" class="card-img-top" alt="...">
-//  <div class="card-body">
-//    <h5 class="card-title">Card title</h5>
-//    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-//    <a href="'+url+'" class="btn btn-primary">Go somewhere</a>
-//  </div>'
-//  </div>'
-//  </div>';
- 
-//  document.getElementById("output").innerHTML = mystring
 
 
-let momxmarebeli ={
-  name: "data",
-  email: "datagogia777@gmail.com",
-  Number: "555555556555",
-  role: 1,
+// let momxmarebeli ={
+//   name: "data",
+//   img:"https://media.istockphoto.com/vectors/user-sign-icon-person-symbol-human-avatar-vector-id639085642?k=6&m=639085642&s=170667a&w=0&h=Xq5G_D9UILnAc9u7Ha1NoeQpNPkW3SIk0st25O_KUnU=",
+//   email: "datagogia777@gmail.com",
+//   Number: "555555556555",
+//   role: 1,
 
-  checkadmin:function(){
-    if(this.role==1){
-      return true
-    }
-    return false
-  }
-}
+//   checkadmin:function(){
+//     if(this.role==1){
+//       return `<span class="badge bg-success">ადმინ</span>`;
+//     }
+//       return `<span class="badge bg-info">მომხმარებელი</span>`;
+//   },
 
-momxmarebeli.role = 3,
+// }
 
-console.log(momxmarebeli)
+// // momxmarebeli.role = 3,
 
-let key = Object.keys(momxmarebeli);
-let val = Object.values(momxmarebeli);
-let all = Object.entries(momxmarebeli);
+// //  console.log(momxmarebeli)
 
-console.log(key, val);
-console.log(momxmarebeli.role);
+//  let key = Object.keys(momxmarebeli);
+//  let val = Object.values(momxmarebeli);
+//  let all = Object.entries(momxmarebeli);
 
-boxs.innerhtml = '<div class="card" >
-<img src="..." class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Card title</h5>
-  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  <a href="#" class="btn btn-primary">Go somewhere</a>
-</div>
-</div>'
+// // console.log(key, val);
+// // console.log(momxmarebeli.role);
+
+// boxs.innerhtml = `<div class="card">
+// + <img src="${momxmarebeli.img}" class="card-img-top" alt="...">
+// + <div class="card-body">
+// +  <h5 class="card-title">${momxmarebeli.name}</h5>
+// +  <p class="card-text">${momxmarebeli.email}</p>
+// +   ${momxmarebeli.checkadmin()}
+// + </div>
+// + </div>`
+
+
+let colors = ['red', 'blue', 'green', 'yellow', 'orange'];
+
+
+colors.unshift('pink');
+colors.push('brown')
+
+
+console.log(colors);
+
 
