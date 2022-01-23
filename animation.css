@@ -1,18 +1,53 @@
 body{
     background:  #333;;
 }
-.box{
+.ball{
     background: white;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
     animation-name: myanimation;
-    animation-duration: 4s;
+    animation-duration: 2s;
+    border-radius: 50%;
+    
 }
+
+.ball1{
+  background: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: myanimation;
+  animation-duration: 4s;
+  margin: 40px;
+  border-radius: 25%;
+}
+.ball2{
+  background: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: myanimation;
+  animation-duration: 2s;
+  border-radius: 60%;
+  margin: auto;
+
+}
+  
 @keyframes myanimation{
-  0%{background-color: white; left: 0px; top: 0px;}
-  25%{background-color:red; left: 300px; top: 0px;}
-  50%{background-color:gray; left: 300px; top: 300px;} 
-  75%{background-color: green; left: 0px; top: 300px;}
-  100%{background-color: white; left: 0px; top: 0px;}
+  10%{background-color: white; left: 0px; top: 0px;}
+  25%{background-color:red; left: 500px; top: 50px;}
+  50%{background-color:gray; left: 400px; top: 100px;} 
+  75%{background-color: green; left: 200px; top: 200px;}
+  100%{background-color: white; left: 300px; top: 50px;}
+}
+
+.balls{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 99999;
+  background-color:red;
 }
